@@ -1,0 +1,23 @@
+GameName = "AfkForObbyUGC"
+
+tab1name = "Main"
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local GameName = Library:NewWindow(GameName)
+
+local Tab1 = GameName:NewSection(tab1name)
+
+Tab1:CreateButton("TP Goal", function(value)
+for i = 1, 1 do
+x=22
+y=50
+z=-1117
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+ end)
+Tab1:CreateButton("TpsToGoalIn5Mins", function(value)
+ end)
+
+local Tab2 = GameName:NewSection("Cocojale")
