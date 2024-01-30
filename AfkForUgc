@@ -8,56 +8,88 @@ local GameName = Library:NewWindow(GameName)
 
 local Tab1 = GameName:NewSection(tab1name)
 
-Tab1:CreateButton("Do Stages", function(value)
+Tab1:CreateButton("Stage 1", function(value)
 for i = 1, 1 do
 x=22
 y=45
 z=408
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 2", function(value)
+for i = 1, 1 do
 x=18
 y=45
 z=244
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 3", function(value)
+for i = 1, 1 do
 x=18
 y=45
 z=53
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 4", function(value)
+for i = 1, 1 do
 x=23
 y=45
 z=-189
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 5", function(value)
+for i = 1, 1 do
 x=22
 y=45
 z=-352
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 6", function(value)
+for i = 1, 1 do
 x=23
 y=45
 z=-515
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 7", function(value)
+for i = 1, 1 do
 x=19
 y=45
 z=-744
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 8", function(value)
+for i = 1, 1 do
 x=18
 y=45
 z=-990
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+end
+end)
+Tab1:CreateButton("Stage 9", function(value)
+for i = 1, 1 do
 x=16
 y=45
 z=-1082
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
 end
- end)
-Tab1:CreateButton("WAIT3MINS", function(value)
+end)
+Tab1:CreateButton("WAIT1-3MINS", function(value)
 print("HI")
  end)
 
